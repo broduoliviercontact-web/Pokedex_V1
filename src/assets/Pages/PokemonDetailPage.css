@@ -1,0 +1,46 @@
+.pokemon-detail {
+  max-width: 700px;
+  margin: 3rem auto;      /* centre le bloc sur la page */
+}
+
+.pokemon-detail-title {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  text-align: center;     /* titre centré */
+}
+
+.pokemon-detail-body {
+  display: flex;
+  gap: 2rem;
+  justify-content: center; /* centre image + infos */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pokemon-detail-img {
+  image-rendering: pixelated;
+}
+
+.pokemon-detail-info {
+  min-width: 200px;
+}
+
+.pokemon-type-link {
+  text-transform: capitalize;
+  margin-right: 0.5rem;
+  color: #e3350d;
+}
+
+.pokemon-stats li {
+  text-transform: capitalize;
+}
+
+.back-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}

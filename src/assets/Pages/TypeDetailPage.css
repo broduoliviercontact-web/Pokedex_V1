@@ -1,0 +1,51 @@
+.page-title {
+  margin-bottom: 1rem;
+}
+
+/* On réutilise les mêmes classes que la liste de pokémons */
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.pokemon-card {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.pokemon-card-img {
+  image-rendering: pixelated;
+}
+
+.pokemon-card-name {
+  text-transform: capitalize;
+  margin: 0.25rem 0;
+}
+
+.pokemon-card-id {
+  color: #777777;
+}
+
+.back-link {
+  margin-top: 1rem;
+}
+
+.pagination button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: #e3350d;
+  margin-right: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+.pagination button:hover {
+  color: #a72a0b;
+  transform: scale(1.1);
+}
